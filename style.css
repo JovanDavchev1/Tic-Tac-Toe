@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #323232;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    border: 5px solid #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+td:hover {
+    background-color: rgba(255, 255, 225, 0.3);
+}
+
+table {
+    border: none;
+}
+
+td {
+    border-width: 0 5px 5px 0;
+}
+
+td:last-child {
+    border-right-width: 0;
+}
+
+tr:last-child td {
+    border-bottom-width: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #323232;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    border: 5px solid #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+td:hover {
+    background-color: rgba(255, 255, 225, 0.3);
+}
+
+table {
+    border: none;
+}
+
+td {
+    border-width: 0 5px 5px 0;
+}
+
+td:last-child {
+    border-right-width: 0;
+}
+
+tr:last-child td {
+    border-bottom-width: 0;
+}
+
+/* Neu hinzugefügt */
+svg.winning-line {
+    position: absolute;
+    top: 50%; /* Zentriert die Linie vertikal */
+    left: 50%; /* Zentriert die Linie horizontal */
+    transform: translate(-50%, -50%); /* Zentriert die Linie genau in der Mitte */
+    width: calc(100% + 10px); /* Berechnet die Breite, um die Linie vollständig abzudecken */
+    height: calc(100% + 10px); /* Berechnet die Höhe, um die Linie vollständig abzudecken */
+    z-index: 1;
+    pointer-events: none; /* Erlaubt Klicks durch das SVG-Element */
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.button{
+    margin: 24px;
+}
